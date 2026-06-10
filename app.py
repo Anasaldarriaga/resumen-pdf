@@ -1,7 +1,7 @@
 import streamlit as st
 from pypdf import PdfReader
 
-st.title("📄 Resumidor de PDF (sin IA)")
+st.title("📄 Resumidor de PDF")
 
 uploaded_file = st.file_uploader("Sube tu archivo PDF", type="pdf")
 
